@@ -1,0 +1,33 @@
+/* CSS Document */
+body{
+	font:Arial, Helvetica, sans-serif;
+	font-size:24px;
+	color:#000;
+}
+table {
+	width:100%;
+	font-family: Tahoma; 
+	border-width: 1px;
+	border-style: solid;
+	border-color:#000;
+	border-collapse: collapse;
+	margin: 10px 0px;
+	background:#FFF;
+}
+
+th{
+	font-weight:bolder;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 0.5em;
+	border:1px solid #000;
+	border-collapse: collapse;
+}
+
+td{
+	padding: 0.5em;
+	vertical-align: middle;
+	border:#000 solid 1px;
+	border-collapse: collapse;
+	padding-left:10px;
+}

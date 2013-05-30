@@ -1,0 +1,16 @@
+body{margin:0px; padding:0px;}
+a:active, a:focus{outline:0}
+input:active, input:focus, input:hover{outline:0}
+#loginWrap{margin:0 auto; padding:0px; width:900px;}
+#loginMain{width:900px; height:520px; margin:50px 0 0 0; padding:0px; float:left; background:url(images/loginbg.png) no-repeat}
+#loginLogin{width:204px; height:127px; margin:196px 0 0 0; padding:0 70px 0 207px; float:left; }
+#loginhead{width:128px; height:48px; padding:0px; margin:169px 0 0 0; float:left; background:url(images/loginHead.png) no-repeat}
+#loginform{width:200px; margin:4px 0 0 0; padding:0 217px 0 0; float:left}
+#loginform label{width:200px; margin:0px; padding:0 217px 0 0; float:left}
+#loginform label input{width:173px; height:19px; margin:14px 0 0 0; padding:3px 0 0 10px; float:left; font-family:Arial; font-size:12px; color:#FFFFFF; line-height:16px; font-style:italic; border:0px; background:url(images/loginTxt.png) no-repeat}
+#loginform label input:focus{background:url(images/loginTxtFocus.png) no-repeat}
+#loginform .list{width:200px; margin:14px 0 0 0; padding:0px; float:left}
+#loginform .list a{width:auto; margin:0px; padding:0px; float:left; font-family:Arial; font-size:12px; color:#FFFFFF; line-height:16px; font-style:italic; text-decoration:none; background:none}
+#loginform .list a:hover{text-decoration:underline}
+#loginform .list .space{width:20px; height:10px; margin:0px; padding:0px; float:left}
+#submit {width:93px; height:25px; margin:14px 0 0 0; padding:0px;; float:left;font-family:Arial; font-size:12px; color:#FFFFFF; line-height:16px; text-align:center; text-decoration:none; font-weight:bold;border:none; background:url(images/signinbutton.png) no-repeat}

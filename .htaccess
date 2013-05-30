@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+RewriteRule ^login$ login.php?page=login [L]
+RewriteRule ^forgot_password$ login.php?page=forgot_password [L]
+RewriteRule ^cek_login$ cek_login.php [L]
+RewriteRule ^kirim_password$ forgot_password.php [L]
+RewriteRule ^logout$ logout.php [L]
+
+Options All -Indexes
+</IfModule>
